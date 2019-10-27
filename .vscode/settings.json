@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b9e35ac1-c60e-4ede-adc1-592b4eb75d10/resourceGroups/dmgghana/providers/Microsoft.Web/sites/dmgghana",
+    "appService.deploySubpath": ""
+}

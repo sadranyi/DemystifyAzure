@@ -1,10 +1,13 @@
 const express = require('express');
-const pen = require('chalk');
+const chalk  = require('chalk');
+const port = 3000;
+
 const app = express();
-const port = 4000;
 
 app.get('/', (req, res) => {
-    res.send('Hello Demystify Technology!!!');
+    res.set('Content-Type', 'text/html');
+    res.send('Hello World');
+    res.end();
 });
 
-app.listen(port, () => console.log(`Demystify Cool App is running on port ${pen.green(port)})`));
+app.listen(port, ()=>{console.log(`${chalk.blue('App')} is running on port ${chalk.green(port)}`)});

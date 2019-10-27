@@ -1,7 +1,7 @@
 {
   "name": "demystify",
   "version": "1.0.0",
-  "description": "Demystify Azure public Sample App",
+  "description": "Repository for Beaverton Azure Meetup Group",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/sadranyi/DemystifyAzure.git"
   },
-  "keywords": [
-    "Azure",
-    "Demystify",
-    "Technology",
-    "Ghana"
-  ],
-  "author": "Samuel S. Adranyi",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sadranyi/DemystifyAzure/issues"

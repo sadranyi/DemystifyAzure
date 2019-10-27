@@ -1,0 +1,25 @@
+{
+  "name": "demystify",
+  "version": "1.0.0",
+  "description": "Demystify Azure public Sample App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadranyi/DemystifyAzure.git"
+  },
+  "keywords": [
+    "Azure",
+    "Demystify",
+    "Technology",
+    "Ghana"
+  ],
+  "author": "Samuel S. Adranyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadranyi/DemystifyAzure/issues"
+  },
+  "homepage": "https://github.com/sadranyi/DemystifyAzure#readme"
+}

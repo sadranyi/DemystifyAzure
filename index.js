@@ -1,13 +1,10 @@
-const express = require('express');
+const http = require('http');
 const chalk  = require('chalk');
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-const app = express();
+http.createServer((req, res) => {
+res.writeHead(200, {'Content-Type': 'text/html'});
+res.end('Hello World');
+}).listen(port);
 
-app.get('/', (req, res) => {
-    res.set('Content-Type', 'text/html');
-    res.send('Hello World');
-    res.end();
-});
-
-app.listen(port, ()=>{console.log(`${chalk.blue('App')} is running on port ${chalk.green(port)}`)});
+console.log(`App is running on Port: ${chalk.green(port)}`);
